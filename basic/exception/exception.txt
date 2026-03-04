@@ -1,0 +1,4 @@
+exceptions == error in the code 
+we use try and catch blocked to delal with the exceptions
+
+throw and throughs

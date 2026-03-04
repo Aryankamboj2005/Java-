@@ -1,0 +1,24 @@
+what are threads == In Java, a thread is the smallest,
+ lightweight unit of execution within a program that 
+ can run concurrently with other parts of the program.
+
+ we need to write extend thread which all the non main class and
+ inside that class/classes it need to have the run method 
+ and when the class is calling from the main class they need 
+ we need to type like obj.start(); to use the thread
+
+ there is a set priority method which is used to set the 
+ priority of the theread range from 1 to 10 .  
+ 1- is the lowest rpiority
+ 5 - is the avergae priority .
+ 10 is the heoghest priority.
+
+ there is a methid cvalled sleep which can stop the thread
+ for the given  time in milli second 
+
+  this can also be dine wth the class name implement runable .
+  thread1.join() ==  join operation stops the main until the threads
+  works is not done.
+  Synchronized key word is used so that only one thread called 
+  a method on a one period of the time 
+  Mutation  ==
